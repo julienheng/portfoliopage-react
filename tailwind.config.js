@@ -19,8 +19,9 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     fontFamily: {
-      primary: "Roboto Mono",
+      primary: ["Roboto Mono"],
       secondary: "sans-serif",
+      signature: ["Great Vibes"],
     },
   },
   plugins: [],

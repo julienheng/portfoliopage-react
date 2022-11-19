@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import profile from "../images/profile.jpg";
 import MenuItems from "./MenuItems";
+import openMenu from "../images/icon-menu.svg";
 
 function Header() {
   const [active, setActive] = useState(false);
@@ -10,48 +11,28 @@ function Header() {
   };
 
   return (
-    // <header className="flex p-3 justify-between text-white">
-    //   <div className="flex items-center px-4">
-    //     <img src={profile} alt="" className="-auto rounded-full w-12 h-12" />
-    //     <h3 className="mx-3 md:text-2xl lg:text-4xl">Julien._Heng</h3>
-    //   </div>
-
-    //   <nav className="mt-2 ml-3 lg:ml-0 lg:p-3 lg:shadow">
-    //     <Link className="text-l mx-2 hover:text-[#B828E6] duration-500" to="/">
-    //       // home
-    //     </Link>{" "}
-    //     <Link className="text-l mx-2 hover:text-[#B828E6] duration-500" to="/about-me">
-    //       // about
-    //     </Link>{" "}
-    //     <Link className="ltext-l mx-2 hover:text-[#B828E6] duration-500" to="/contact">
-    //       // contact
-    //     </Link>
-    //   </nav>
-    //   <div></div>
-    // </header>
-
-    <header className="text-white fixed w-full flex justify-between p-4 items-center">
+    <header className="w-full flex justify-between p-4 items-center text-white">
       <div className="flex items-center">
         <img src={profile} alt="" className="rounded-full w-12 h-12" />
-        <h3 className="mx-3 text-4xl text-center">Julien._Heng</h3>
+        <h3 className="mx-3 text-4xl text-center">._Heng</h3>
       </div>
 
       <nav>
-        <div className="">
-          <MenuOutlined />
+        <div className="absolute right-6 md:hidden top-6 scale-150 ">
+          <img src={openMenu} alt="" onClick={showMenu} />
         </div>
-        <ul className="hidden md:flex gap-8 p-2 bg-white/10">
+        <ul className="hidden md:flex gap-8 p-2">
           <li>
             <Link to="/">// home</Link>
           </li>
           <li>
-            <Link to="/">// about</Link>
+            <Link to="/about-me">// about</Link>
           </li>
           <li>
-            <Link to="/">// contact</Link>
+            <Link to="/contact">// contact</Link>
           </li>
         </ul>
-        <MenuItems />
+        <MenuItems showMenu={showMenu} active={active} />
       </nav>
       <div></div>
     </header>
