@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -13,7 +13,7 @@ function SocialLinks() {
         </>
       ),
       href: "https://www.linkedin.com/in/julien-heng/",
-      style: "rounded-tr-md",
+      style: "rounded-md",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ function SocialLinks() {
         </>
       ),
       href: "https://github.com/julienheng",
-      style: "rounded-tr-md",
+      style: "rounded-md",
     },
     {
       id: 3,
@@ -33,17 +33,18 @@ function SocialLinks() {
         </>
       ),
       href: "https://www.google.com",
-      style: "rounded-tr-md",
+      style: "rounded-md",
     },
     {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          Resume
+          <BsFillPersonLinesFill size={30} />
         </>
       ),
       href: "/Julien's Resume.pdf",
-      style: "rounded-tr-md",
+      style: "rounded-md",
       download: true,
     },
   ];

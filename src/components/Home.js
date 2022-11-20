@@ -1,28 +1,26 @@
 import React, { useEffect } from "react";
 import profile from "../images/profile.jpg";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import "./Home.css";
+import { Link } from "react-scroll";
 
 function Home() {
   return (
-    <div name="home" className="h-screen w-full bg-gradient-to-b from-black to-gray-800">
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="text-white flex flex-col justify-center h-full">
-          <h2 className="">Hey, it's...</h2>
-          <h1 className="text-4xl sm:text-7xl font-bold">Julien Heng</h1>
-          <p>Software Developer</p>
-          <div>
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500">
-              Portfolio
-              <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
-              </span>
-            </button>
-          </div>
+    <div name="home" className="h-screen bg-gradient-to-b from-black to-gray-800">
+      <div className="max-w-screen-xl mx-auto flex flex-col items-center px-4 md:flex-row h-full relative">
+        <div className="text-white max-w-screen-lg flex flex-col justify-center w-screen h-full px-10">
+          <h2 className="sm:text-4xl text-left w-fit">Hey, it's...</h2>
+          <h1 className="name sm:text-8xl pb-3 my-10 w-fit mx-auto">Julien Heng</h1>
+          <p className="job sm:text-4xl pb-2 w-fit mx-auto ">SOFTWARE DEVELOPER</p>
         </div>
 
-        <div>
-          <img src={profile} alt="my profile" className="rounded-2xl mx-auto w-1/3 md:w-100" />
+        <div className="w-1/2">
+          <img src={profile} alt="my profile" className="mx-auto w-fit md:w-100 rounded-2xl" />
         </div>
+        <section id="section10" className="w-fit h-fit flex flex-col text-white absolute left-[50%] bottom-10">
+          <Link to="/about" smooth duration={500}>
+            <span></span>Scroll
+          </Link>
+        </section>
       </div>
     </div>
   );

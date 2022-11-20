@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import profile from "../images/profile.jpg";
 import { Link } from "react-scroll";
 
 function Navbar() {
@@ -24,9 +23,8 @@ function Navbar() {
     },
   ];
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black">
-      <div className="flex items-center">
-        <img src={profile} alt="" className="rounded-full w-12 h-12" />
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
+      <div>
         <h3 className="mx-3 text-4xl text-center font-signature">J.Heng</h3>
       </div>
 
