@@ -70,7 +70,7 @@ function Experience() {
   return (
     <div name="experience" className="w-full h-screen bg-gradient-to-b from-gray-800 to-black">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white text-center">
-        <p className="text-4xl mx-auto border-b-4 border-yellow-500 p-2">Experience</p>
+        <p className="text-5xl mx-auto border-b-4 border-yellow-500 p-2">Experience</p>
         <p className="py-6 sm:text-xl">These are the technologies I've learned and worked with</p>
         <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8 text-center py-8 px-24 md:px-28">
           {techs.map(({ id, src, title, style }) => (

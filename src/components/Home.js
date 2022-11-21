@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import profile from "../images/profile.jpg";
 import "./Home.css";
 import { Link } from "react-scroll";
+import Typical from "react-typical";
 
 function Home() {
   return (
@@ -10,7 +11,9 @@ function Home() {
         <div className="text-white max-w-screen-lg flex flex-col justify-center w-screen h-full px-10">
           <h2 className="sm:text-4xl text-left w-fit">Hey, it's...</h2>
           <h1 className="name sm:text-8xl pb-3 my-10 w-fit mx-auto">Julien Heng</h1>
-          <p className="job sm:text-4xl pb-2 w-fit mx-auto ">SOFTWARE DEVELOPER</p>
+          <p className="job sm:text-4xl pb-2 w-fit mx-auto ">
+            <Typical loop={Infinity} wrapper="p" steps={["SOFTWARE DEVELOPER", 500, "GLOBETROTTER", 1000]} />
+          </p>
         </div>
 
         <div className="w-1/2">

@@ -1,14 +1,14 @@
-.job {
+.email {
   position: relative;
   text-decoration: none;
 }
 
 /* Underline */
-.job:after {
+.email:after {
   content: "";
   position: absolute;
   width: 100%;
-  height: 10px;
+  height: 3px;
   background-color: RGB(184, 40, 230);
   bottom: 0;
   left: 0;
@@ -17,7 +17,7 @@
   transform: scaleX(0);
 }
 
-.job:hover::after {
+.email:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
