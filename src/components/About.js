@@ -1,5 +1,4 @@
 import React from "react";
-import TextEffect from "./TextEffect";
 
 function About() {
   return (
