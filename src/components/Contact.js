@@ -3,8 +3,8 @@ import SocialMedia from "./SocialMedia";
 function Contact() {
   return (
     <>
-      <div name="// contact" className="w-full h-full md:h-screen px-5 bg-gradient-to-b from-black to-black text-white border-2 border-solid border-red-700">
-        <div className="flex flex-col mx-auto mt-10 justify-center text-center max-w-screen-lg border-2 border-solid border-green-700">
+      <div name="// contact" className="w-full h-full md:h-screen px-5 bg-gradient-to-b from-black to-black text-white">
+        <div className="flex flex-col mx-auto mt-10 justify-center text-center max-w-screen-lg">
           <div className="">
             <p className="text-3xl md:text-5xl font-bold inline border-b-4 border-pink-500">Get To Know Me!</p>
             <p className="mt-3 pt-2 text-md md:text-2xl">
