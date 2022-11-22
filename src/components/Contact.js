@@ -4,7 +4,7 @@ function Contact() {
   return (
     <>
       <div name="// contact" className="w-full h-screen px-5 bg-gradient-to-b from-black to-gray-800 text-white border-2 border-solid border-green-700">
-        <div className="flex flex-col justify-center text-center max-w-screen-lg h-full border-2 border-solid border-blue-700">
+        <div className="flex flex-col justify-center text-center max-w-screen-lg border-2 border-solid border-blue-700">
           <div className="border-solid border-2 border-yellow">
             <p className="text-3xl md:text-5xl font-bold inline border-b-4 border-pink-500">Get To Know Me!</p>
             <p className="mt-3 text-md md:text-2xl">
