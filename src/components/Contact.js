@@ -18,7 +18,7 @@ function Contact() {
             <p className="pt-5">Send me a message!</p>
           </div>
 
-          <div className="flex flex-col justify-center border-2 border-solid border-red-700 items-center">
+          <div className="flex flex-col h-full justify-center border-2 border-solid border-red-700 items-center">
             <form action="" className="flex flex-col w-full">
               <input type="text" name="name" placeholder="Enter your name" className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none" />
 
