@@ -6,7 +6,7 @@ import { BsFacebook } from "react-icons/bs";
 function SocialMedia() {
   return (
     <>
-      <div className="mt-3">
+      <div className="mt-5">
         <ul className="flex flex-row justify-center ">
           <li className="mx-2 text-[#4968ad] hover:scale-150 duration-500">
             <a href="https://www.linkedin.com/in/julien-heng/" target="_blank">

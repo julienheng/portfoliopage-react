@@ -7,7 +7,7 @@ function Contact() {
         <div className="flex flex-col mx-auto mt-10 justify-center text-center max-w-screen-lg">
           <div className="">
             <p className="text-3xl md:text-5xl font-bold inline border-b-4 border-pink-500">Get To Know Me!</p>
-            <p className="mt-3 pt-2 text-md md:text-2xl">
+            <p className="mt-5 pt-2 text-md md:text-2xl">
               I am open to <span className="text-[#39C600]">Job</span> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience please don't hesitate to <span className="text-[#39C600]">contact</span> me.
             </p>
             {/* <p  className="email w-fit mx-auto pt-5 text-2xl">
