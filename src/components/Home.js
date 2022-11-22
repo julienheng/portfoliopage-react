@@ -7,7 +7,7 @@ function Home() {
   return (
     <div name="// home" className="h-screen w-full flex flex-col justify-center md:flex md:flex-row md:items-center bg-gradient-to-b from-black to-gray-800">
       {/* <div className="max-w-screen-xl mx-auto flex flex-col items-center px-4 md:flex-row h-full relative"> */}
-      <div className="text-white max-w-screen-lg flex flex-col justify-center my-3 mx-auto px-10 border-solid border-2 border-white-600">
+      <div className="text-white max-w-screen-lg flex flex-col justify-center my-3 mx-auto px-10">
         <h2 className="text-left text-3xl lg:text-4xl">Hey, it's...</h2>
         <h1 className="name w-full text-center text-5xl my-6 md:text-8xl lg:mx-25 pb-2 tracking-tighter">JULIEN HENG</h1>
         <p className="job text-2xl md:text-5xl text-center mb-5">
