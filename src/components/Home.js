@@ -14,7 +14,7 @@ function Home() {
         </p>
       </div>
 
-      <img src={profile} alt="my profile" className="w-2/5 md:w-4/12 md:flex md:justify-center mx-auto md:ml-5 rounded-full md:rounded-tl-[30%] md:rounded-tr-[70%] md:rounded-bl-[40%] md:rounded-br-[20%] shadow hover:shadow-white" />
+      <img src={profile} alt="my profile" className="w-2/5 md:w-3/12 md:flex md:justify-center mx-auto md:ml-5 rounded-full md:rounded-tl-[30%] md:rounded-tr-[70%] md:rounded-bl-[40%] md:rounded-br-[20%] shadow hover:shadow-white" />
 
       <section id="section10" className="w-fit h-fit flex flex-col text-white absolute left-[44%] md:left-[50%] bottom-10">
         <Link to="// about" smooth duration={1000}>
