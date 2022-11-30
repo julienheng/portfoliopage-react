@@ -18,7 +18,7 @@ function Home() {
           <BackgroundCircles />
         </div>
         <h2 className="text-left text-3xl lg:text-4xl z-0">Hey, it's...</h2>
-        <h1 className="name w-full font-extrabold text-5xl my-6 md:text-8xl lg:mx-25 pb-2 tracking-tighter z-0">JULIEN HENG</h1>
+        <h1 className="name w-full font-black text-5xl my-6 md:text-8xl lg:mx-25 pb-2 tracking-tighter z-0">JULIEN HENG</h1>
 
         <p className="job text-2xl md:text-5xl text-center mb-5">
           <Typical steps={["Software Developer.", 2000, "Globetrotter.", 2000]} loop={Infinity} />
