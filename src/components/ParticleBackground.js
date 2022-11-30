@@ -47,7 +47,7 @@ const ParticleBackground = () => {
               },
             },
             opacity: {
-              value: 1,
+              value: 0.7,
               random: true,
               anim: {
                 enable: true,
