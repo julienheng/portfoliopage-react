@@ -21,7 +21,7 @@ function Home() {
         <h1 className="name w-full font-extrabold text-5xl my-6 md:text-8xl lg:mx-25 pb-2 tracking-tighter z-0">JULIEN HENG</h1>
 
         <p className="job text-2xl md:text-5xl text-center mb-5">
-          <Typical loop={Infinity} wrapper="p" steps={["Software Developer", 1000, "Globetrotter", 500]} />
+          <Typical steps={["Software Developer.", 2000, "Globetrotter.", 2000]} loop={Infinity} />
         </p>
       </div>
 
