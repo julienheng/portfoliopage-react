@@ -35,7 +35,7 @@ function Home() {
         className="w-2/5 md:w-3/12 md:flex md:justify-center mx-auto rounded-full md:ml-5 md:rounded-tl-md md:rounded-br-md md:rounded-tr-[30%] md:rounded-bl-[30%] shadow hover:shadow-white z-0"
       />
 
-      <section id="section10" className="w-fit h-fit flex flex-col text-white absolute left-[44%] md:left-[50%] bottom-10 z-0">
+      <section id="section10" className="w-fit h-fit flex flex-col text-white absolute left-[44%] md:left-[50%] bottom-10">
         <Link to="// about" smooth duration={1000}>
           <span></span>Scroll
         </Link>
