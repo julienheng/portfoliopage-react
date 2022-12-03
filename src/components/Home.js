@@ -11,12 +11,12 @@ function Home() {
   const [rotate, setRotate] = useState(false);
 
   return (
-    <div name="// home" className="h-screen w-full flex flex-col justify-center md:flex md:flex-row md:items-center bg-gradient-to-b from-black to-gray-800">
+    <div name="// home" className="h-screen w-full flex flex-col justify-center md:flex md:flex-row md:items-center bg-gradient-to-b from-black to-gray-800 relative">
       <ParticleBackground />
+      <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+        <BackgroundCircles />
+      </div>
       <div className="text-white max-w-screen-lg mx-auto md:mr-5 w-fit flex flex-col justify-center my-3">
-        <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-          <BackgroundCircles />
-        </div>
         <h2 className="text-left text-3xl lg:text-4xl z-0">Hey, it's...</h2>
         <h1 className="name w-full font-black text-5xl my-6 md:text-8xl lg:mx-25 pb-2 tracking-tighter z-0">JULIEN HENG</h1>
 
