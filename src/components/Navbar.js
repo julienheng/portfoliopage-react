@@ -48,7 +48,7 @@ function Navbar() {
         <ul className="flex flex-col items-center justify-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white">
           {links.map(({ id, link }) => (
             <li key={id} className="px-4 cursor-pointer py-6 text-4xl font-thin hover:scale-150 duration-200">
-              <Link onClick={() => setNav(!nav)} to={link} smooth duration={1000}>
+              <Link onClick={() => setNav(!nav)} to={link} smooth duration={1000} offset={-80}>
                 {link}
               </Link>
             </li>
