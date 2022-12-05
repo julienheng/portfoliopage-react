@@ -23,7 +23,7 @@ function Navbar() {
     },
   ];
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-50">
       <div>
         <Link to="// home" smooth duration={1000} className="mx-3 text-4xl text-center font-signature">
           J.Heng

@@ -29,14 +29,13 @@ function Contact() {
           </div>
 
           <div className="flex flex-col pt-4 justify-center items-center">
-            <form action="https://getform.io/f/0bdb7c33-9cd5-492b-acae-f1790d7fa009" method="POST" className="flex flex-col items-center w-full">
+            <form onSubmit={handleSubmit} action="https://getform.io/f/0bdb7c33-9cd5-492b-acae-f1790d7fa009" method="POST" className="flex flex-col items-center w-full">
               <input ref={nameRef} type="text" name="name" placeholder="Enter your name" className="h-2/5 w-4/5 md:w-3/5 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none" />
 
               <input ref={emailRef} type="text" name="name" placeholder="Enter your email" className="h-2/5 w-4/5 md:w-3/5 my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none" />
               <textarea ref={messageRef} name="message" rows="10" className="w-4/5 md:w-3/5 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"></textarea>
-              <button onSubmit={handleSubmit} className="text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-3 my-8 mx-auto flex items-center rounded-full hover:scale-110 duration-300">
-                Let's Connect
-              </button>
+              {/* <button className="text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-3 my-8 mx-auto flex items-center rounded-full hover:scale-110 duration-300">Let's Connect</button> */}
+              <input className="text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-3 my-8 mx-auto flex items-center rounded-full hover:scale-110 duration-300" type="submit" value="Submit" />
             </form>
           </div>
         </div>

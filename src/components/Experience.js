@@ -42,7 +42,7 @@ function Experience() {
       style: "shadow-sky-400",
     },
     {
-      id: 8,
+      id: 6,
       src: next,
       title: "Next JS",
       style: "shadow-white",
@@ -54,7 +54,7 @@ function Experience() {
       style: "shadow-red-500",
     },
     {
-      id: 9,
+      id: 8,
       src: mongo,
       title: "DB Mongo",
       style: "shadow-green-600",
