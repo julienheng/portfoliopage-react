@@ -79,7 +79,7 @@ function Experience() {
           Skills
         </motion.h2>
         <p className="py-6 sm:text-xl">These are the technologies I've learned and worked with</p>
-        <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 px-22 md:px-28">
+        <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 px-14 md:px-28">
           {techs.map(({ id, src, title, style }, i) => (
             <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.05, delay: i * 0.05 }} key={id} className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style}`}>
               <img src={src} alt="" className="w-14 md:w-20 mx-auto" />
