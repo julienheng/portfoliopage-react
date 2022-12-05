@@ -11,7 +11,7 @@ function Home() {
   const [rotate, setRotate] = useState(false);
 
   return (
-    <div name="// home" className="h-screen w-full flex flex-col justify-center md:flex md:flex-row md:items-center bg-gradient-to-b from-black to-gray-800 relative overflow-hidden">
+    <div name="// home" className="h-screen w-full flex flex-col justify-center md:flex md:flex-row md:items-center bg-gradient-to-b from-black to-gray-800 relative">
       <ParticleBackground />
       <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
         <BackgroundCircles />
