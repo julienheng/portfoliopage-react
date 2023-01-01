@@ -5,7 +5,7 @@ import rails from "../images/rails.png";
 import mongo from "../images/mongo.png";
 import react from "../images/react.png";
 import next from "../images/next.png";
-import github from "../images/github.png";
+import typescript from "../images/typescript.png";
 import tailwind from "../images/tailwind.png";
 import { motion } from "framer-motion";
 
@@ -33,7 +33,7 @@ function Experience() {
       id: 4,
       src: react,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-blue-400",
     },
     {
       id: 5,
@@ -51,7 +51,7 @@ function Experience() {
       id: 7,
       src: rails,
       title: "Ruby on Rails",
-      style: "shadow-red-500",
+      style: "shadow-red-600",
     },
     {
       id: 8,
@@ -61,9 +61,9 @@ function Experience() {
     },
     {
       id: 9,
-      src: github,
-      title: "Github",
-      style: "shadow-white",
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-blue-500",
     },
   ];
 
@@ -81,7 +81,11 @@ function Experience() {
         <p className="py-6 sm:text-xl">These are the technologies I've learned and worked with</p>
         <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 px-14 md:px-28">
           {techs.map(({ id, src, title, style }, i) => (
-            <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.05, delay: i * 0.05 }} key={id} className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style}`}>
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.05, delay: i * 0.05 }}
+              key={id} className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style}`}>
               <img src={src} alt="" className="w-14 md:w-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </motion.div>
